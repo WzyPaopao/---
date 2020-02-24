@@ -8,12 +8,12 @@
 
 
 
-> 数据集、word2vec模型下载：
+>> 数据集、word2vec模型下载：
+>> 
+>> 链接：https://pan.baidu.com/s/1YfzMCCXI5xusOB6FDExTxg 
+>> 提取码：1wlq
 >
-> 链接：https://pan.baidu.com/s/1YfzMCCXI5xusOB6FDExTxg 
-> 提取码：1wlq
-
-数据集为新闻数据集，共有十个类别。训练集50000，验证集5000，测试集10000。
+> 数据集为新闻数据集，共有十个类别。训练集50000，验证集5000，测试集10000。
 
 
 
@@ -27,7 +27,7 @@
 
 **1. Input -> Embedding -> LSTM -> Output**
 
-   ![dnn_1](.\img\dnn_1.png)
+   ![dnn_1](./img/dnn_1.png)
 
 **2. Input -> Embedding -> LSTM -> Dense -> Dropout ->Output**
 
