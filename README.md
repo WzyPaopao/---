@@ -1,0 +1,39 @@
+# 神经网络文本分类实例
+
+**环境说明：**
+
+- tensorflow 2.0.0（GPU）
+- python 3.6.10
+- gensim 3.8.0
+
+
+
+> 数据集、word2vec模型下载：
+>
+> 链接：https://pan.baidu.com/s/1YfzMCCXI5xusOB6FDExTxg 
+> 提取码：1wlq
+
+
+
+---
+
+使用了gensim的word2vec模型训练词嵌入模型，通过字典和Embedding层可实现词的向量化
+
+
+
+## 使用LSTM模型的神经网络
+
+**1. Input -> Embedding -> LSTM -> Output**
+
+   ![dnn_1](.\img\dnn_1.png)
+
+**2. Input -> Embedding -> LSTM -> Dense -> Dropout ->Output**
+
+   ![dnn_2](./img/dnn_2.png)
+
+**3. Input -> Embedding -> LSTM -> Dropout -> Dense -> Dropout -> Dense -> Dropout ->Output**
+
+   ![dnn_3](./img/dnn_3.png)
+
+*（在第三个模型上，测试机的 Accuray 为 0.9177，Loss 为 0.287）*
+
