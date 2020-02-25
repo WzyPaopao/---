@@ -23,19 +23,19 @@
 
 
 
-## 使用LSTM模型的神经网络
+## 使用LSTM模型的神经网络（RNN）
 
 **1. Input -> Embedding -> LSTM -> Output**
 
-   ![dnn_1](./img/dnn_1.png)
+   ![dnn_1](./img/rnn_1.png)
 
 **2. Input -> Embedding -> LSTM -> Dense -> Dropout ->Output**
 
-   ![dnn_2](./img/dnn_2.png)
+   ![dnn_2](./img/rnn_2.png)
 
 **3. Input -> Embedding -> LSTM -> Dropout -> Dense -> Dropout -> Dense -> Dropout ->Output**
 
-   ![dnn_3](./img/dnn_3.png)
+   ![dnn_3](./img/rnn_3.png)
 
 *（在第三个模型上，测试机的 Accuray 为 0.9177，Loss 为 0.287）*
 
